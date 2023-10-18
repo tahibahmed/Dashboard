@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #95a7b8;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  background-color: #001529;
+  line-height: 4rem;
+  color: #fff;
+}
+.sidemenu {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar {
+  background-color: #001529;
+  height: 700px;
+  padding-top: 60px;
+  width: 200px;
+}
+.ant-menu .li.ant-menu-item {
+  font-size: 30px;
+}
+.frm-antd {
+  border: 4px solid black !important;
+  background-color: rgba(245, 245, 245, 0.55);
+  width: 700px !important;
+  padding: 40px;
+ margin-top: 40px;
+  position: relative;
+  left: 30%;
+  bottom: 0 !important;
+  border-radius: 30px;
+}
